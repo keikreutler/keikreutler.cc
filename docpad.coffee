@@ -12,35 +12,38 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://keikreutler.cc"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'www.keikreutler.com',
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "keikreutler.cc"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				A list of ideas in construction. The website for Kei Kreutler.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				quantified self, astrology, satellites, thick mapping, digital humanities, mapping, technical experiments, unmonastery, extinct.ly, transformlab,
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "Kei Kreutler"
 
 			# The website author's email
-			email: "your@email.com"
+			email: "talk@keikreutler.cc"
 
 			# Styles
 			styles: [
+				"/styles/animations.css"
+				"//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&subset=latin,latin-ext"
+				"//fonts.googleapis.com/css?family=Open+Sans"
+				"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
 				"/styles/twitter-bootstrap.css"
 				"/styles/style.css"
 			]
