@@ -3,59 +3,73 @@ layout: 'default'
 title: 'Home'
 ---
 
-<img src="/images/kk_md.png">
-
-<div class="project">
-  <a href="http://unmonastery.org" target="_blank">unmonastery.org</a>
-  <p>
-    A social clinic for the future, rethinking monasticism and hackerspaces to prototype a network of spaces throughout Europe.
-  </p>
+<div class="brand">
+  <img src="/images/kk_md.png">
+  <h1>Current Projects</h1>
 </div>
 
-<div class="project">
-  <a href="http://extinct.ly" target="_blank">extinct.ly</a>
-  <p>
-    The website for the *Extinction Marathon* at Sepertine Galleries, showcasing digital commissions and projects addressing global climate and economic crisis.
-  </p>
+<div class="row">
+
+  <div class="col-sm-4">
+    <a class="animated" href="http://unmonastery.org" target="_blank">unmonastery.org</a>
+    <p>
+      A social clinic for the future, rethinking monasticism and hackerspaces to prototype a network of spaces throughout Europe. unMonastery addresses the interlinked needs of empty space, unemployment and depleting social services by embedding committed, skilled individuals within communities that could benefit from their presence.
+    </p>
+  </div>
+
+  <div class="col-sm-4">
+    <a class="animated" href="http://prox.imity.io" target="_blank">prox.imity.io</a>
+    <p>
+      <em>UNDER CONSTRUCTION</em><br>
+      An experimental research project for astrological inquiry into modern satellite technology and its quotidian geopolitical ramifications.
+    </p>
+  </div>
+
+  <div class="col-sm-4">
+    <a class="animated" href="http://extinct.ly" target="_blank">extinct.ly</a>
+    <p>
+      A commissioning and research platform developed to support remote participation in the Serpentine Galleries’ 2014 <em>Extinction Marathon</em>. EXTINCT.LY is focused on the continued development of artist-led projects, data visualization, and a combination of online and offline encounters relating to the theme of Extinction.
+    </p>
+  </div>
+
 </div>
 
-<div class="project">
-  <a href="http://prox.imity.io" target="_blank">prox.imity.io</a>
-  <p>
-    An experimental research project for astrological inquiry into modern satellite technology.
-  </p>
+<div class="row">
+
+  <div class="col-sm-4">
+    <a class="animated" href="http://affectivek.it" target="_blank">affectivek.it</a>
+    <p>
+      <em>UNDER CONSTRUCTION</em><br>
+      An online portal for rethinking the advent of quantified self terminology and technologies.
+    </p>
+  </div>
+
+  <div class="col-sm-4">
+    <a class="animated" href="http://questi.onl" target="_blank">questi.onl</a>
+    <p>
+      TerraMoods Inc. is building tomorrow on how you feel today, collecting data through a series of arbitrary questions which are then privately analyzed and used to the artist's personal ends.
+    </p>
+  </div>
+
+  <div class="col-sm-4">
+    <a class="animated" href="http://transformap.co" target="_blank">transformap.co</a>
+    <p>
+      A TransformLab project for connecting commons-based mapping projects and developing a general taxonomy for geospatial and socio-economic initiatives.
+    </p>
+  </div>
+
 </div>
 
-<div class="project">
-  <a href="http://affectivek.it" target="_blank">affectivek.it</a>
-  <p>
-    UNDER CONSTRUCTION<br>
-    An online portal for rethinking the advent of quantified self terminology and technologies.
-  </p>
-</div>
 
-<div class="project">
-  <a href="http://questi.onl" target="_blank">questi.onl</a>
-  <p>
-    TerraMoods Inc. is building tomorrow on how you feel today.
-  </p>
-</div>
+<script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
 
-<div class="project">
-  <a href="http://transformap.co" target="_blank">transformap.co</a>
-  <p>
-    UNDER CONSTRUCTION<br>
-    TransformLab project for developing a network and taxonomy of alternative and innovative socio-economic mapping initiatives.
-  </p>
-</div>
-
-<a href="//twitter.com/keikreutler" target="_blank"><i class="fa fa-twitter fa-1x"></i></a> &nbsp;&nbsp;<a href="//instagram.com/keikreutler" target="_blank"><i class="fa fa-instagram fa-1x"></i></a> &nbsp;&nbsp;<a href="mailto:kei@ourmachine.net"><i class="fa fa-envelope fa-1x"></i></a> &nbsp;&nbsp;<a href="//github.com/keikreutler" target="_blank"><i class="fa fa-github fa-1x"></i></a>
-
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <script>
-	$("div.project").hover(function() {
-    $(this).find( "a" ).hover(function() {
-      $(this).find( "p" ).addClass("slideDownAlpha");
-    });
+	$("a.animated").hover(function() {
+    $(this).css("cursor", "pointer");
+    $(this).parent().find( "p" ).addClass("slideDownAlpha");
+	});
+
+  $("img").hover(function() {
+    $(this).parent().find( "h1" ).addClass("fadeInSoft");
 	});
 </script>

@@ -20,11 +20,11 @@ docpadConfig = {
 			]
 
 			# The default title of our website
-			title: "keikreutler.cc"
+			title: "Kei Kreutler"
 
 			# The website description (for SEO)
 			description: """
-				A list of ideas in construction. The website for Kei Kreutler.
+				A list of links in construction. The website for Kei Kreutler.
 				"""
 
 			# The website keywords (for SEO) separated by commas
@@ -43,14 +43,15 @@ docpadConfig = {
 				"/styles/animations.css"
 				"//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&subset=latin,latin-ext"
 				"//fonts.googleapis.com/css?family=Open+Sans"
+				"//fonts.googleapis.com/css?family=Open+Sans:300"
 				"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
 				"/styles/twitter-bootstrap.css"
 				"/styles/style.css"
+				"/styles/mobile.css"
 			]
 
 			# Scripts
 			scripts: [
-				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
 				"/scripts/script.js"

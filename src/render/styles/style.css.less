@@ -1,32 +1,62 @@
-
-a, a:link {
-	cursor: pointer;
-}
-
 body {
 	font-family: 'Open Sans', sans-serif;
+	cursor: default;
 }
-
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 20px;
+}
 p {
 	font-family: 'Open Sans', sans-serif;
 }
-
+footer {
+	margin-top: 40px;
+}
+a, a:visited, a:link {
+	color: #222;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+a:hover, a:active {
+	color: #666;
+	text-decoration: none;
+	cursor: pointer;
+}
 .container {
 	text-align: center;
+	margin: 50px auto;
 }
-
-.project {
-	max-width: auto;
-	display: block
-	margin: 20px auto;
-	p {
-		display: none;
-		margin: 0;
-	}
-	a {
+.row {
+	margin: 0;
+	padding: 0;
+}
+.col-sm-4 {
+	margin: 40px auto;
+	padding: 0 40px;
+	a, a:visited {
 		font-family: 'Yanone Kaffeesatz';
-		text-transform: uppercase;
 		font-size: 20px;
-		color: #222;
+		text-transform: uppercase;
+		letter-spacing: .05em;
+	}
+	p {
+		max-width: 400px;
+		margin: 5px auto;
+		color: #666;
+		font-size: 12px;
+		visibility: hidden;
+	}
+}
+.brand {
+	margin-bottom: 30px;
+	img {
+		max-height: 100px;
+		margin-bottom: 20px;
+	}
+	h1 {
+		margin: 0;
+		visibility: hidden;
 	}
 }
