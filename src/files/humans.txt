@@ -3,10 +3,9 @@
 
 
 /* TEAM */
-  Artist and Developer: Kei Kreutler
+  Developer: Kei Kreutler
   Site: keikreutler.cc
   Twitter: @keikreutler
-  Location: London, Athens, and Istanbul
 
 /* SITE */
   Standards: HTML5, CSS3
