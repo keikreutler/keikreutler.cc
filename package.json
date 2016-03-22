@@ -30,6 +30,7 @@
   "dependencies": {
     "docpad": "~6.74.0",
     "docpad-plugin-cleanurls": "~2.7.0",
+    "docpad-plugin-coffee": "~2.0.2",
     "docpad-plugin-coffeescript": "~2.5.0",
     "docpad-plugin-downloader": "~2.1.4",
     "docpad-plugin-eco": "~2.1.0",

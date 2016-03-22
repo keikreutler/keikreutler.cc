@@ -29,14 +29,14 @@ docpadConfig = {
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				quantified self, astrology, satellites, thick mapping, digital humanities, mapping, technical experiments, unmonastery, extinct.ly, transformlab,
+				quantified self, astrology, satellites, thick mapping, digital humanities, mapping, technical experiments, unmonastery, extinct.ly, transformlab, open source observatory, satnogs, libre space foundation, second foundation,
 				"""
 
 			# The website author's name
 			author: "Kei Kreutler"
 
 			# The website author's email
-			email: "talk@keikreutler.cc"
+			email: "kei@ourmachine.net"
 
 			# Styles
 			styles: [
